@@ -34,7 +34,7 @@ btnInsertUpdate.addEventListener("click", () => {
 
         for(const txt of inputTxt) {
             if(txt.value == " " || txt.value == "") {
-                alert("Please complete all the text inputs!");
+                alert("Please complete all the specified text inputs!");
                 return;
             }
         }
